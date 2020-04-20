@@ -1,8 +1,10 @@
-// Tambahkan parameter number1 dan number2 kedalam function
-const add = (number1, number2) => {
-  // Print penjumlahaan number1 dan number2
-  console.log(number1 + number2);
+const half = (number) => {
+  // Return nilai dari variable number dibagi 2
+  return number / 2;
 };
 
-// Panggil function dengan 5 dan 7 sebagai argument
-add(5, 7);
+// Defenisikan constant result
+const result = half(130);
+
+// Print pesan "Setengah dari 130 adalah ____"
+console.log(`Separuh dari 130 adalah ${result}`);
