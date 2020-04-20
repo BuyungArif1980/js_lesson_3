@@ -1,7 +1,8 @@
-// Tetapkan arrow function ke constant greet
-const greet = () => {
-  console.log("Halo!");
+// Tambahkan parameter name ke function
+const greet = (name) => {
+  // Print pesan "Halo, ____"
+  console.log(`Halo, ${name}`);
 };
 
-// Panggil function greet
-greet();
+// Panggil function greet dengan "Guru Domba" sebagai argument
+greet("Guru Domba");
