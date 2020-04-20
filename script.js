@@ -1,8 +1,7 @@
-// Tetapkan function ke constant hello
-const hello = function() {
+// Tetapkan arrow function ke constant greet
+const greet = () => {
   console.log("Halo!");
-  console.log("Saya Ninja Ken");
 };
 
-// Panggil function yang ditetapkan di constant hello
-hello();
+// Panggil function greet
+greet();
