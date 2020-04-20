@@ -1,13 +1,21 @@
-// Definisikan constant name
-const name = "Ninja Ken";
+const number1 = 103;
+const number2 = 72;
+const number3 = 189;
 
-const introduce = (name) => {
-  // Print "Saya ____" diconsole
-  console.log(`Saya ${name}`);
+// Ketik sebuah function getMax untuk mendapatkan nilai maksimum
+const getMax = (a, b, c) => {
+  let max = a;
+
+  if (b > max) {
+    max = b;
+  }
+  if (c > max) {
+    max = c;
+  }
+
+  return max;
 };
 
-// Panggil function introduce
-introduce("Guru Domba");
-
-// Print nilai dari constant name
-console.log(name);
+// Print "Nilai maksimum adalah __"
+const max = getMax(number1, number2, number3);
+console.log(`Nilai maksimum adalah ${max}`);
