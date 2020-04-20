@@ -1,7 +1,8 @@
-const greet = function() {
+// Tetapkan function ke constant hello
+const hello = function() {
   console.log("Halo!");
-  console.log("Ayo belajar function!");
+  console.log("Saya Ninja Ken");
 };
 
-// Panggil function greet dibawah
-greet();
+// Panggil function yang ditetapkan di constant hello
+hello();
